@@ -63,22 +63,21 @@ UC23-02「精緻な土砂災害シミュレーション」に関する成果物�
 `morpho2DHSolver`フォルダ内に、倒壊判定モジュール組み込み版Morpho2DHのソルバーのソースやオブジェクトファイルが含まれています。
 ソルバーの利用方法やビルド方法は[利用チュートリアル](https://r5-plateau-acn.github.io/Building-collapse-detector/)をご覧ください。
 
-```text
-[リポジトリルート]
-  - morpho2DHSolver : 倒壊判定モジュール組み込み版Morpho2DHのソルバーのソースやオブジェクトファイル
-      - iRICsolvers_Morpho2DH : ビルド済みのMorpho2DHのソルバー(morpho2d.exe)が保存されるフォルダ
-        - definition.xml : exeのバージョン等が記載されているxml
-        - morpho2d.exe : ビルド済みのMorpho2DHのソルバーのexe
-        - translation_ja_JP.ts : 翻訳ファイル
-      - src : Morpho2DHのソルバーのソース・オブジェクトファイルを収めているフォルダ
-        - build.bat : ビルドを実行するバッチファイル
-        - func_cforce.f90 : 家屋倒壊閾値を変動させるサブルーチン
-        - func_fbuilding.f90 : 土石流外力を計算するサブルーチン
-        - *.obj : 建屋倒壊判定以外のソルバーのビルド済みファイル
-        - *.mod : 建屋倒壊判定以外のソルバーのビルド済みファイル
-        - *.lib : 建屋倒壊判定以外のソルバーのビルド済みファイル
-  - tech_report.pdf : 倒壊判定ロジックに関する技術資料
-```
+| フォルダ名                       | 詳細                                           |
+|-----------------------------|----------------------------------------------|
+| morpho2DHSolver             | 倒壊判定モジュール組み込み版Morpho2DHのソルバーのソースやオブジェクトファイル  |
+| &emsp;iRICsolvers_Morpho2DH | ビルド済みのMorpho2DHのソルバー(morpho2d.exe)が保存されるフォルダ |
+| &emsp;&emsp;definition.xml          | exeのバージョン等が記載されているxml                        |
+| &emsp;&emsp;morpho2d.exe            | ビルド済みのMorpho2DHのソルバーのexe                     |
+| &emsp;&emsp;translation_ja_JP.ts    | 翻訳ファイル                                       |
+| &emsp;src                       | Morpho2DHのソルバーのソース・オブジェクトファイルを収めているフォルダ      |
+| &emsp;&emsp;build.bat               | ビルドを実行するバッチファイル                              |
+| &emsp;&emsp;func_cforce.f90         | 家屋倒壊閾値を変動させるサブルーチン                           |
+| &emsp;&emsp;func_fbuilding.f90      | 土石流外力を計算するサブルーチン                             |
+| &emsp;&emsp;*.obj                   | 建屋倒壊判定以外のソルバーのビルド済みファイル                      |
+| &emsp;&emsp;*.mod                   | 建屋倒壊判定以外のソルバーのビルド済みファイル                      |
+| &emsp;&emsp;*.lib                   | 建屋倒壊判定以外のソルバーのビルド済みファイル                      |
+| tech_report.pdf             | 倒壊判定ロジックに関する技術資料                             |
 
 ## 8. ライセンス <!-- 変更せず、そのまま使うこと。 -->
 
