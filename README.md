@@ -13,7 +13,7 @@
 Morpho2DHの土石流流動モデルをベースに、iRICに読み込まれた3D都市モデル（地形LOD1モデル）を地形条件として土石流流動を計算できるようにしています。  
 さらに、ここで算出した2m×2mサイズのメッシュ単位の流体力を用い、3D都市モデル（建築物LOD1モデル）の位置情報及び属性情報を組み合わせることで、メッシュごとに土石流に対して家屋が倒壊したかを判定する機能を提供します。  
 3D都市モデルはCSV形式またはShapefile形式に変換したうえで利用します。  
-また、シミュレーション結果をTerriaMap上で可視化するための[CZMLコンバータ](https://github.com/Project-PLATEAU/Debris-flow-visualization-tool)を別途提供しています。  
+また、シミュレーション結果をTerriaMap上で可視化するための[「Morpho2DH to CZMLコンバータ」](https://github.com/Project-PLATEAU/Morpho2DH-to-CZML-Converter)を別途提供しています。  
 
 本システムの詳細については[技術検証レポート](https://www.mlit.go.jp/plateau/file/libraries/doc/plateau_tech_doc_0072_ver01.pdf)を参照してください。
 
