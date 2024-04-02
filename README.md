@@ -19,7 +19,7 @@ Morpho2DHの土石流流動モデルをベースに、iRICに読み込まれた3
 
 ## 3. 利用手順
 
-本システムの構築手順及び利用手順については[利用チュートリアル](https://plateau-acn.github.io/Building-collapse-detector/)を参照してください。
+本システムの構築手順及び利用手順については[利用チュートリアル](https://project-plateau.github.io/Building-collapse-detector/)を参照してください。
 
 ## 4. システム概要
 
